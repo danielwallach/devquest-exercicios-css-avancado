@@ -1,0 +1,22 @@
+@media (max-width: 380px) {
+    
+    body {
+        padding: 45px 20px;
+    }
+    
+    .container {
+        width: 335px;
+    }
+    .container .lista-imagens {
+        flex-direction: column;
+    }
+
+    .container .lista-imagens li {
+        margin-left: 0;
+    }
+    
+    .container .lista-imagens li img {
+        width: 335px;
+        height: 430px;
+    }
+}

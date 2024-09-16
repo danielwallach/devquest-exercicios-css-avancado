@@ -1,0 +1,106 @@
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.perfil-photo {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: relative;
+    top: 54px;
+    left: 150px;
+    
+}
+
+.card-head {
+    background-image: url(../images/bg-pattern-card.svg);
+    width: 400px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.personal-datas {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.personal-datas p {
+    padding-top: 10px;
+}
+
+span {
+    color: black;
+}
+
+.perfil-datas {
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-top: 2px solid rgb(211, 211, 211);
+    height: 100px;
+    border-radius: 0 0 10px 10px;
+    justify-content: space-around;
+    
+}
+
+li {
+    text-align: center;
+}
+
+.number-datas {
+    color: black;
+    font-weight: 700;
+}
+
+.bg-pattern-top {
+    position: absolute;
+    top: -400px;
+    left: -50px;
+    z-index: -1;
+}
+
+.bg-pattern-bottom {
+    position: absolute;
+    bottom: -400px;
+    right: -50px;
+    z-index: -1;
+}
+
+@media (max-width: 425px) {
+    .card-head, .personal-datas, .perfil-datas {
+        width: 350px;
+        
+    }
+
+    .perfil-photo {
+        left: 125px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+       
+    }
+
+}

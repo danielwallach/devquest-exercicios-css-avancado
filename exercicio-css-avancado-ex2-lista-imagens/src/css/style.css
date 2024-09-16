@@ -1,0 +1,32 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    padding: 130px 0 130px 0;
+    color: #fff;
+}
+
+.container .lista-imagens {
+    display: flex;
+}
+
+.container .lista-imagens li {
+    margin-left: 20px;
+    position: relative;
+    height: 433px;
+    
+}
+
+.container .lista-imagens .nome-obra {
+    position: absolute;
+    bottom: 70px;
+    left: 25px;
+}
+
+.container .lista-imagens .nome-artista {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+
+.container .lista-imagens li:hover {
+    border: 1px solid #000;
+}

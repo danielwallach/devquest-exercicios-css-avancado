@@ -1,0 +1,56 @@
+body {
+    font-family: "Manrope", sans-serif;
+    color: hsl(193, 38%, 86%);
+    background-color: hsl(218, 23%, 16%);
+    font-weight: 800;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    max-width: 450px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.container .number-order {
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.container .description {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* .container picture {
+    margin-top: 20px;
+} */
+
+.container picture img {
+    width: 100%;
+}
+
+.container .icon-device {
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: translateY(100%);
+}
+
+.container .icon-device:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
